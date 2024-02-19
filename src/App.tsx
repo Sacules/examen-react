@@ -53,6 +53,7 @@ function App() {
                   type: "toggleAll",
                 })
               }
+              checked={state.every((l) => l.value === true)}
             />
             Select all
           </label>
